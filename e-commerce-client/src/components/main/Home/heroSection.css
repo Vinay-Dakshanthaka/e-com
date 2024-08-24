@@ -1,0 +1,61 @@
+.hero-section .carousel-item {
+    height: 500px;
+}
+
+.hero-section .hero-video,
+.hero-section .hero-image {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+.hero-section .carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+}
+
+.hero-section h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+}
+
+.hero-section button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .hero-section .carousel-caption {
+        /* width: 100%; */
+        padding: 5px;
+        margin-left: auto;
+    }
+
+    .hero-section h3 {
+        font-size: 1.75rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .hero-section button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+    .hero-section .hero-video,
+.hero-section .hero-image {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+}

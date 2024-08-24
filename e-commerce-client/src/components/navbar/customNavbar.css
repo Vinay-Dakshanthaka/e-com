@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .nav-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+  }
+  
+  .user-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .auth-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-menu:hover .dropdown {
+    display: block;
+  }
+  
