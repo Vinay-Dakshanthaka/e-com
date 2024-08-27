@@ -8,11 +8,11 @@ import './App.css';
 function App() {
   return (
     <Router>
-    <div className='app-container'>
-    <CustomNavbar />
-      <Main />
-      <Footer />
-    </div>
+      <div className='app-container'>
+        <CustomNavbar />
+        <Main />
+        <Footer />
+      </div>
     </Router>
   )
 }
